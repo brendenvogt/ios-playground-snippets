@@ -7,7 +7,7 @@ import Foundation
 // when implementing usage, you can switch case wrapped.effect.type and case from the wrapped by `let item : DistortionEffect = wrapped.cast()`
 
 // type
-indirect enum EffectType : String, Codable {
+enum EffectType : String, Codable {
     case reverb
     case distortion
     case mixed
